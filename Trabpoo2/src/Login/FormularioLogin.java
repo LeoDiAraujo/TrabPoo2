@@ -1,8 +1,10 @@
+package Login;
+
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.*;
 
-public class Trabpoo2 extends JFrame {
+public class FormularioLogin extends JFrame {
     private JLabel userLabel;
     private JTextField userText;
     private JLabel passwordLabel;
@@ -10,7 +12,7 @@ public class Trabpoo2 extends JFrame {
     private JButton loginButton;
     private JButton registerButton;
 
-    public Trabpoo2() {
+    public FormularioLogin() {
         super("Login");
         setLayout(null);
 
@@ -58,6 +60,6 @@ public class Trabpoo2 extends JFrame {
     }
 
     public static void main(String[] args) {
-        new Trabpoo2();
+        new FormularioLogin();
     }
 }
